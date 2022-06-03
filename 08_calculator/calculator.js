@@ -10,12 +10,12 @@ const subtract = function(...nums) {
   return num1 - num2
 };
 
-const sum = function() {
-	
+const sum = function(nums) {
+  return nums.reduce((a, b) => a + b, 0)
 };
 
-const multiply = function() {
-
+const multiply = function(nums) {
+  return nums.reduce((a, b) => a * b, 1)
 };
 
 const power = function() {
